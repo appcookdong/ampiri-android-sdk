@@ -7,9 +7,21 @@
         <item>@string/ad_video</item>
         <item>@string/ad_native</item>
         <item>@string/ad_native_video</item>
-        <item>@string/ad_native_infeed_feed_card</item>
-        <item>@string/ad_native_infeed_story_card</item>
-        <item>@string/ad_native_infeed_video_card</item>
         <item>@string/ad_native_view_pager</item>
+        <item>@string/ad_native_infeed_standard_feed_card</item>
+        <item>@string/ad_native_infeed_recycler_vertical_feed_card</item>
+        <item>@string/ad_native_infeed_recycler_horizontal_feed_card</item>
+        <item>@string/ad_native_infeed_grid_vertical_feed_card</item>
+        <item>@string/ad_native_infeed_grid_horizontal_feed_card</item>
+        <item>@string/ad_native_infeed_standard_story_card</item>
+        <item>@string/ad_native_infeed_recycler_vertical_story_card</item>
+        <item>@string/ad_native_infeed_recycler_horizontal_story_card</item>
+        <item>@string/ad_native_infeed_grid_vertical_story_card</item>
+        <item>@string/ad_native_infeed_grid_horizontal_story_card</item>
+        <item>@string/ad_native_infeed_standard_video_card</item>
+        <item>@string/ad_native_infeed_recycler_vertical_video_card</item>
+        <item>@string/ad_native_infeed_recycler_horizontal_video_card</item>
+        <item>@string/ad_native_infeed_grid_vertical_video_card</item>
+        <item>@string/ad_native_infeed_grid_horizontal_video_card</item>
     </string-array>
 </resources>

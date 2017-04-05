@@ -1,3 +1,14 @@
+## Version 3.8 (April 5, 2017)
+- RecyclerView support
+- Updated the following dependencies:
+    - Google Play Services to 10.2.1
+    - support-annotations JAR to 25.3.0
+    - support-v4 AAR to 25.3.0
+    - Chartboost SDK to 6.6.2
+    - MoPub SDK to 4.13.0
+- Fixed:
+    - Miscellaneous bug fixes
+
 ## Version 3.7 (March 13, 2017)
 - Updated the following dependencies:
     - Facebook Audience Network SDK to 4.20.0

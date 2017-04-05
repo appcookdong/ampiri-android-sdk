@@ -1,15 +1,27 @@
 <resources>
     <string name="app_name">Ampiri Sample</string>
-    <string name="ad_banner_standard">Ampiri Standard Banner Sample</string>
-    <string name="ad_banner_big">Ampiri Big Banner Sample</string>
-    <string name="ad_interstitial">Ampiri Interstitial Sample</string>
-    <string name="ad_video">Ampiri Video Interstitial Sample</string>
-    <string name="ad_native">Ampiri Native Ad Sample</string>
-    <string name="ad_native_video">Ampiri Native Video Ad Sample</string>
-    <string name="ad_native_infeed_feed_card">Ampiri Infeed Ad Sample</string>
-    <string name="ad_native_infeed_story_card">Ampiri Infeed Story Card Ad Sample</string>
-    <string name="ad_native_infeed_video_card">Ampiri Infeed Video Card Ad Sample</string>
-    <string name="ad_native_view_pager">Ampiri View Pager Ad Sample</string>
+    <string name="ad_banner_standard">Standard Banner</string>
+    <string name="ad_banner_big">Big Banner</string>
+    <string name="ad_interstitial">Interstitial</string>
+    <string name="ad_video">Video Interstitial</string>
+    <string name="ad_native">Native</string>
+    <string name="ad_native_video">Native Video</string>
+    <string name="ad_native_infeed_standard_feed_card">Standard InFeed</string>
+    <string name="ad_native_infeed_recycler_vertical_feed_card">Recycler Vertical InFeed</string>
+    <string name="ad_native_infeed_recycler_horizontal_feed_card">Recycler Horizontal InFeed</string>
+    <string name="ad_native_infeed_grid_vertical_feed_card">Grid Vertical InFeed</string>
+    <string name="ad_native_infeed_grid_horizontal_feed_card">Grid Horizontal InFeed</string>
+    <string name="ad_native_infeed_standard_story_card">Standard Story Card</string>
+    <string name="ad_native_infeed_recycler_vertical_story_card">Recycler Vertical Story Card</string>
+    <string name="ad_native_infeed_recycler_horizontal_story_card">Recycler Horizontal Story Card</string>
+    <string name="ad_native_infeed_grid_vertical_story_card">Grid Vertical Story Card</string>
+    <string name="ad_native_infeed_grid_horizontal_story_card">Grid Horizontal Story Card</string>
+    <string name="ad_native_infeed_standard_video_card">Standard Video Card</string>
+    <string name="ad_native_infeed_recycler_vertical_video_card">Recycler Vertical Video Card</string>
+    <string name="ad_native_infeed_recycler_horizontal_video_card">Recycler Horizontal Video Card</string>
+    <string name="ad_native_infeed_grid_vertical_video_card">Grid Vertical Video Card</string>
+    <string name="ad_native_infeed_grid_horizontal_video_card">Grid Horizontal Video Card</string>
+    <string name="ad_native_view_pager">View Pager Ad Sample</string>
 
     <string name="auto_refresh">Auto update</string>
 

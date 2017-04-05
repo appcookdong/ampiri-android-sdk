@@ -1,5 +1,6 @@
 package com.ampiri.demo;
 
+import android.content.Context;
 import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
 import android.support.v4.app.Fragment;
@@ -41,6 +42,9 @@ public abstract class AdCallbackFragment extends Fragment implements AdEventCall
     }
 
     private void showMsg(@StringRes final int resId, @Nullable final Object... formatArgs) {
-        Toast.makeText(getContext(), getString(resId, formatArgs), Toast.LENGTH_LONG).show();
+        final Context context = getContext();
+        if (context != null) {
+            Toast.makeText(context, context.getString(resId, formatArgs), Toast.LENGTH_LONG).show();
+        }
     }
 }

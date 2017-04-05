@@ -17,6 +17,7 @@ Boost your app's revenue streams and save time: sign up for an account at [Ampir
 * [Native and In-Feed, Templates and UI](#native-and-in-feed-templates-and-ui)
 * [Ad Events Handling (Callbacks)](#ad-events-handling-callbacks)
 * [Activity lifecycle events handling](#activity-lifecycle-events-handling)
+* [Ad Networks Setting](#ad-networks-settings)
 * [Demo (Sample) App/ Testing](#demo-sample-app-testing)
 
 ## Ampiri Support
@@ -37,8 +38,8 @@ To show *standard banner* ads:
 
 | Specification | Network | Version |
 |----------|----------|----------|
-|`ampiri-sdk-mediation-admob`|[Google Mobile Ads](https://developers.google.com/admob/android/quick-start)|v10.0.1, API 9: Android 2.3 (Gingerbread)|
-|`ampiri-sdk-mediation-mopub`|[MoPub](https://github.com/mopub/mopub-android-sdk)|v4.12.0, API 16: Android 4.1 (JELLY_BEAN)|
+|`ampiri-sdk-mediation-admob`|[Google Mobile Ads](https://developers.google.com/admob/android/quick-start)|v10.2.1, API 14: Android 4.0 (Ice Cream Sandwich)|
+|`ampiri-sdk-mediation-mopub`|[MoPub](https://github.com/mopub/mopub-android-sdk)|v4.13.0, API 16: Android 4.1 (JELLY_BEAN)|
 |`ampiri-sdk-mediation-facebook`| [Facebook Audience](https://developers.facebook.com/docs/audience-network)|v4.20.0, API 15: Android 4.0.3 (ICE_CREAM_SANDWICH_MR1)|
 |`ampiri-sdk-mediation-inlocomedia`| [InLocoMedia](http://docs.inlocomedia.com)| v2.5.0, API 14: Android 4.0 (ICE_CREAM_SANDWICH)|
 
@@ -46,9 +47,9 @@ To show *interstitial* ads:
 
 | Specification | Network | Version |
 |----------|----------|----------|
-|`ampiri-sdk-mediation-admob`|[Google Mobile Ads](https://developers.google.com/admob/android/quick-start)|v10.0.1, API 9: Android 2.3 (Gingerbread)|
-|`ampiri-sdk-mediation-mopub`|[MoPub](https://github.com/mopub/mopub-android-sdk)|v4.12.0, API 16: Android 4.1 (JELLY_BEAN)|
-|`ampiri-sdk-mediation-chartboost`|[Chartboost](https://answers.chartboost.com/hc/en-us/articles/201219545-Download-Integrate-the-Chartboost-SDK-for-Android)|v6.6.1, API 9: Android 2.3 (Gingerbread)|
+|`ampiri-sdk-mediation-admob`|[Google Mobile Ads](https://developers.google.com/admob/android/quick-start)|v10.2.1, API 14: Android 4.0 (Ice Cream Sandwich)|
+|`ampiri-sdk-mediation-mopub`|[MoPub](https://github.com/mopub/mopub-android-sdk)|v4.13.0, API 16: Android 4.1 (JELLY_BEAN)|
+|`ampiri-sdk-mediation-chartboost`|[Chartboost](https://answers.chartboost.com/hc/en-us/articles/201219545-Download-Integrate-the-Chartboost-SDK-for-Android)|v6.6.2, API 14: Android 4.0 (Ice Cream Sandwich)|
 |`ampiri-sdk-mediation-facebook`|[Facebook Audience](https://developers.facebook.com/docs/audience-network)|v4.20.0, API 15: Android 4.0.3 (ICE_CREAM_SANDWICH_MR1)|
 |`ampiri-sdk-mediation-nativex`|[NativeX](https://github.com/nativex/NativeX-Android-SDK)|v5.5.9, API 11: Android 3.0 (Honeycomb)|
 |`ampiri-sdk-mediation-applovin`|[AppLovin](https://github.com/AppLovin/Android-Demo-App)|v6.4.2, API 9: Android 2.3 (Gingerbread)|
@@ -60,16 +61,16 @@ To show *video* ads:
 |----------|----------|----------|
 |`ampiri-sdk-mediation-adcolony`|[AdColony](https://github.com/AdColony/AdColony-Android-SDK)|v2.3.6, API 14: Android 4.0 (Ice Cream Sandwich)|
 |`ampiri-sdk-mediation-unityads`|[Unity Ads](https://github.com/Applifier/unity-ads-sdk)|v2.0.8, API 9: Android 2.3 (Gingerbread)|
-|`ampiri-sdk-mediation-chartboost`|[Chartboost](https://answers.chartboost.com/hc/en-us/articles/201219545-Download-Integrate-the-Chartboost-SDK-for-Android)|v6.6.1, API 9: Android 2.3 (Gingerbread)|
+|`ampiri-sdk-mediation-chartboost`|[Chartboost](https://answers.chartboost.com/hc/en-us/articles/201219545-Download-Integrate-the-Chartboost-SDK-for-Android)|v6.6.2, API 14: Android 4.0 (Ice Cream Sandwich)|
 |`ampiri-sdk-mediation-nativex`|[NativeX](https://github.com/nativex/NativeX-Android-SDK)|v5.5.9, API 11: Android 3.0 (Honeycomb)|
-|`ampiri-sdk-mediation-vungle`|[Vungle](https://v.vungle.com/sdk)|v4.0.3, API 11: Android 3.0 (Honeycomb)|
+|`ampiri-sdk-mediation-vungle`|[Vungle](https://v.vungle.com/sdk)|v4.0.3, API 14: Android 4.0 (Ice Cream Sandwich)|
 
 To show *native* ads:
 
 | Specification | Network | Version |
 |----------|----------|----------|
-|`ampiri-sdk-mediation-admob`|[Google Mobile Ads](https://developers.google.com/admob/android/quick-start)|v10.0.1, API 9: Android 2.3 (Gingerbread)|
-|`ampiri-sdk-mediation-mopub`|[MoPub](https://github.com/mopub/mopub-android-sdk)|v4.12.0, API 16: Android 4.1 (JELLY_BEAN)|
+|`ampiri-sdk-mediation-admob`|[Google Mobile Ads](https://developers.google.com/admob/android/quick-start)|v10.2.1, API 14: Android 4.0 (Ice Cream Sandwich)|
+|`ampiri-sdk-mediation-mopub`|[MoPub](https://github.com/mopub/mopub-android-sdk)|v4.13.0, API 16: Android 4.1 (JELLY_BEAN)|
 |`ampiri-sdk-mediation-facebook`|[Facebook Audience](https://developers.facebook.com/docs/audience-network)|v4.20.0, API 15: Android 4.0.3 (ICE_CREAM_SANDWICH_MR1)|
 |`ampiri-sdk-mediation-applovin`|[AppLovin](https://github.com/AppLovin/Android-Demo-App)|v6.4.2, API 9: Android 2.3 (Gingerbread)|
 |`ampiri-sdk-mediation-baidu`|[Baidu](http://mssp.baidu.com/app/static/main.html#/sdk)|v5.6, API 8: Android 2.2 (Froyo)|
@@ -82,9 +83,9 @@ You must set up each 3rd-party network on the Ampiri website, otherwise they wil
 ## Requirements and Dependencies ##
 
 * Android 2.3 (API Version 9) and up
-* support-annotations, v25.2.0
-* support-v4, v25.2.0
-* **Recommended** Google Play Services 10.0.1
+* support-annotations, v25.3.0
+* support-v4, v25.3.0
+* **Recommended** Google Play Services 10.2.1
 
 We strongly recommend compiling your app using **Google Play services**, in order to use the `Android Advertising ID`
 instead of the`Device ID`, as required by Google. Failing to correctly use the `Android Advertising ID` may result in your submission to the Play Store being rejected.
@@ -105,20 +106,20 @@ repositories {
 }
 
 dependencies {
-  compile 'com.ampiri.sdk:ampiri-sdk:3.7.0'
-  compile 'com.ampiri.sdk:ampiri-sdk-mediation-adcolony:3.7.0'
-  compile 'com.ampiri.sdk:ampiri-sdk-mediation-admob:3.7.0'
-  compile 'com.ampiri.sdk:ampiri-sdk-mediation-unityads:3.7.0'
-  compile 'com.ampiri.sdk:ampiri-sdk-mediation-applovin:3.7.0'
-  compile 'com.ampiri.sdk:ampiri-sdk-mediation-chartboost:3.7.0'
-  compile 'com.ampiri.sdk:ampiri-sdk-mediation-facebook:3.7.0'
-  compile 'com.ampiri.sdk:ampiri-sdk-mediation-inlocomedia:3.7.0'
-  compile 'com.ampiri.sdk:ampiri-sdk-mediation-mopub:3.7.0'
-  compile 'com.ampiri.sdk:ampiri-sdk-mediation-nativex:3.7.0'
-  compile 'com.ampiri.sdk:ampiri-sdk-mediation-vungle:3.7.0'
-  compile 'com.ampiri.sdk:ampiri-sdk-mediation-baidu:3.7.0'
+  compile 'com.ampiri.sdk:ampiri-sdk:3.8.0'
+  compile 'com.ampiri.sdk:ampiri-sdk-mediation-adcolony:3.8.0'
+  compile 'com.ampiri.sdk:ampiri-sdk-mediation-admob:3.8.0'
+  compile 'com.ampiri.sdk:ampiri-sdk-mediation-unityads:3.8.0'
+  compile 'com.ampiri.sdk:ampiri-sdk-mediation-applovin:3.8.0'
+  compile 'com.ampiri.sdk:ampiri-sdk-mediation-chartboost:3.8.0'
+  compile 'com.ampiri.sdk:ampiri-sdk-mediation-facebook:3.8.0'
+  compile 'com.ampiri.sdk:ampiri-sdk-mediation-inlocomedia:3.8.0'
+  compile 'com.ampiri.sdk:ampiri-sdk-mediation-mopub:3.8.0'
+  compile 'com.ampiri.sdk:ampiri-sdk-mediation-nativex:3.8.0'
+  compile 'com.ampiri.sdk:ampiri-sdk-mediation-vungle:3.8.0'
+  compile 'com.ampiri.sdk:ampiri-sdk-mediation-baidu:3.8.0'
 
-  compile 'com.google.android.gms:play-services-ads:10.0.1'
+  compile 'com.google.android.gms:play-services-ads:10.2.1'
 }
 ```
 
@@ -136,31 +137,31 @@ repositories {
 }
 
 dependencies {
-  compile(name: 'ampiri-sdk', version:'3.7.0', ext: 'aar')
-  compile(name: 'ampiri-sdk-mediation', version:'3.7.0', ext: 'aar')
-  compile(name: 'ampiri-sdk-mediation-adcolony', version:'3.7.0', ext: 'aar')
-  compile(name: 'ampiri-sdk-mediation-admob', version:'3.7.0', ext: 'aar')
-  compile(name: 'ampiri-sdk-mediation-applovin', version:'3.7.0', ext: 'aar')
-  compile(name: 'ampiri-sdk-mediation-unityads', version:'3.7.0', ext: 'aar')
-  compile(name: 'ampiri-sdk-mediation-chartboost', version:'3.7.0', ext: 'aar')
-  compile(name: 'ampiri-sdk-mediation-facebook', version:'3.7.0', ext: 'aar')
-  compile(name: 'ampiri-sdk-mediation-inlocomedia', version:'3.7.0', ext: 'aar')
-  compile(name: 'ampiri-sdk-mediation-mopub', version:'3.7.0', ext: 'aar')
-  compile(name: 'ampiri-sdk-mediation-nativex', version:'3.7.0', ext: 'aar')
-  compile(name: 'ampiri-sdk-mediation-vungle', version:'3.7.0', ext: 'aar')
-  compile(name: 'ampiri-sdk-mediation-baidu', version:'3.7.0', ext: 'aar')
-  compile(name: 'ampiri-sdk-mraid', version:'3.7.0', ext: 'aar')
-  compile(name: 'ampiri-sdk-vast', version:'3.7.0', ext: 'aar')
+  compile(name: 'ampiri-sdk', version:'3.8.0', ext: 'aar')
+  compile(name: 'ampiri-sdk-mediation', version:'3.8.0', ext: 'aar')
+  compile(name: 'ampiri-sdk-mediation-adcolony', version:'3.8.0', ext: 'aar')
+  compile(name: 'ampiri-sdk-mediation-admob', version:'3.8.0', ext: 'aar')
+  compile(name: 'ampiri-sdk-mediation-applovin', version:'3.8.0', ext: 'aar')
+  compile(name: 'ampiri-sdk-mediation-unityads', version:'3.8.0', ext: 'aar')
+  compile(name: 'ampiri-sdk-mediation-chartboost', version:'3.8.0', ext: 'aar')
+  compile(name: 'ampiri-sdk-mediation-facebook', version:'3.8.0', ext: 'aar')
+  compile(name: 'ampiri-sdk-mediation-inlocomedia', version:'3.8.0', ext: 'aar')
+  compile(name: 'ampiri-sdk-mediation-mopub', version:'3.8.0', ext: 'aar')
+  compile(name: 'ampiri-sdk-mediation-nativex', version:'3.8.0', ext: 'aar')
+  compile(name: 'ampiri-sdk-mediation-vungle', version:'3.8.0', ext: 'aar')
+  compile(name: 'ampiri-sdk-mediation-baidu', version:'3.8.0', ext: 'aar')
+  compile(name: 'ampiri-sdk-mraid', version:'3.8.0', ext: 'aar')
+  compile(name: 'ampiri-sdk-vast', version:'3.8.0', ext: 'aar')
 
-  compile 'com.google.android.gms:play-services-ads:10.0.1'
+  compile 'com.google.android.gms:play-services-ads:10.2.1'
   compile 'com.facebook.android:audience-network-sdk:4.20.0'
-  compile('com.mopub:mopub-sdk-banner:4.12.0@aar') {
+  compile('com.mopub:mopub-sdk-banner:4.13.0@aar') {
     transitive = true
   }
-  compile('com.mopub:mopub-sdk-interstitial:4.12.0@aar') {
+  compile('com.mopub:mopub-sdk-interstitial:4.13.0@aar') {
       transitive = true
   }
-  compile('com.mopub:mopub-sdk-native-static:4.12.0@aar') {
+  compile('com.mopub:mopub-sdk-native-static:4.13.0@aar') {
         transitive = true
   }
   compile 'com.inlocomedia.android:android-sdk:2.5.0'
@@ -215,7 +216,7 @@ It is advisable to make the banner size in the layout the same as teh required o
 
 Add the following code to your activity:
 ```java
-FrameLayout adView = (FrameLayout) view.findViewById(R.id.ad_view);
+FrameLayout adView = (FrameLayout) findViewById(R.id.ad_view);
 StandardAd standardAd = new StandardAd(this, adView, "YOUR_STANDARD_AD_UNIT_ID", BannerSize.BANNER_SIZE_320x50, adListener);
 standardAd.loadAd();
 ```
@@ -584,6 +585,8 @@ You can set this attributes in your custom `NativeAdView` layout
 
 Add the following code to your activity:
 
+#### ListView ####
+
 ```java
 StreamAdAdapter adAdapter = new StreamAdAdapter.Builder()
   .setAdapter(new MainAdapter(this))
@@ -592,6 +595,20 @@ StreamAdAdapter adAdapter = new StreamAdAdapter.Builder()
   .setEventCallback(this)
   .build(this);
 listView.setAdapter(adAdapter);
+adAdapter.loadAd();
+```
+
+#### RecyclerView ####
+
+```java
+RecyclerAdAdapter adAdapter = new RecyclerAdAdapter.Builder()
+  .setAdapter(new MainAdapter(this))
+  .setAdUnitId("YOUR_NATIVE_AD_UNIT_ID")
+  .setViewBuilder(FeedCardNativeAdView.BUILDER)
+  .setEventCallback(this)
+  .build(this);
+recyclerView.setLayoutManager(layoutManager);
+recyclerView.setAdapter(adAdapter);
 adAdapter.loadAd();
 ```
 
@@ -668,7 +685,39 @@ protected void onDestroy() {
     nativeAd.onActivityDestroyed();
 }
 ```
+## Ad Networks Settings
 
+### AdMob
+
+```java
+Ampiri.addMediationAdapter(new AdMobMediation.Builder()
+    .addTestDevice("HASHED_ID")
+    .build());
+```
+
+### Facebook
+
+```java
+Ampiri.addMediationAdapter(new FacebookMediation.Builder()
+    .addTestDevice("HASHED_ID")
+    .build());
+```
+
+### AdColony
+
+```java
+Ampiri.addMediationAdapter(new AdColonyMediation.Builder()
+    .setStore("Amazon")
+    .build());
+```
+
+### InLocoMedia
+
+```java
+Ampiri.addMediationAdapter(new InLocoMediaMediation.Builder()
+    .addTestDevice("HASHED_ID")
+    .build());
+```
 ## Demo (Sample) App/ Testing
 
 ### Steps

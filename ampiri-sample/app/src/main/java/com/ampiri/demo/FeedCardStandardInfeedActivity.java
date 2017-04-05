@@ -7,11 +7,11 @@ import android.support.annotation.NonNull;
 import com.ampiri.sdk.banner.FeedCardNativeAdView;
 import com.ampiri.sdk.banner.NativeAdView;
 
-public class FeedCardInfeedActivity extends InfeedActivity {
+public class FeedCardStandardInfeedActivity extends StandardInfeedActivity {
 
     @NonNull
     public static Intent buildIntent(@NonNull final Context context) {
-        return new Intent(context, FeedCardInfeedActivity.class);
+        return new Intent(context, FeedCardStandardInfeedActivity.class);
     }
 
     @NonNull

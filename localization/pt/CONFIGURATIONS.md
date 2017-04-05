@@ -6,7 +6,6 @@ Aqui você pode encontrar tópicos avançados sobre o Ampiri SDK.
 
 * [Suporte Ampiri](#Suporte-Ampiri)
 * [Dados do Usuário](#Dados-do-Usuário)
-* [Configurações de rede de anúncios](#Configurações-de-rede-de-anúncios)
 * [Log](#Log)
 * [Modo Debug](#Modo-Debug)
 * [Integração com Eclipse](#Integração-com-Eclipse)
@@ -29,32 +28,6 @@ Para transmitir as informações de uso ao Ampiri SDK, deve-se usar os seguintes
 Ampiri.setUserBirthday(data);
 Ampiri.setUserGender(UserData.Gender.FEMALE);
 Ampiri.setUserInterests(Arrays.asList("football", "auto", "cats")); // Apenas exemplos. Por favor define interesses reais.
-```
-
-## Configurações de rede de anúncios
-
-### AdMob
-
-```java
-Ampiri.addMediationAdapter(new AdMobMediation.Builder()
-    .addTestDevice("HASHED_ID")
-    .build());
-```
-
-### Facebook
-
-```java
-Ampiri.addMediationAdapter(new FacebookMediation.Builder()
-    .addTestDevice("HASHED_ID")
-    .build());
-```
-
-### AdColony
-
-```java
-Ampiri.addMediationAdapter(new AdColonyMediation.Builder()
-    .setStore("Amazon")
-    .build());
 ```
 
 ## Log ##

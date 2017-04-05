@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.ampiri.demo"
-          xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.ampiri.demo">
 
-    <uses-permission
-        android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission
-        android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 
     <uses-sdk
         tools:overrideLibrary="com.mopub.volley, com.facebook.ads"/>
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:name=".App"
         android:allowBackup="true"
@@ -45,17 +45,62 @@
             android:name=".VideoNativeActivity"
             android:label="@string/ad_native_video"/>
         <activity
-            android:name=".FeedCardInfeedActivity"
-            android:label="@string/ad_native_infeed_feed_card"/>
+            android:name=".FeedCardStandardInfeedActivity"
+            android:label="@string/ad_native_infeed_standard_feed_card"/>
         <activity
-            android:name=".StoryCardInfeedActivity"
-            android:label="@string/ad_native_infeed_story_card"/>
+            android:name=".StoryCardStandardInfeedActivity"
+            android:label="@string/ad_native_infeed_standard_story_card"/>
         <activity
-            android:name=".VideoCardInfeedActivity"
-            android:label="@string/ad_native_infeed_video_card"/>
+            android:name=".VideoCardStandardInfeedActivity"
+            android:label="@string/ad_native_infeed_standard_video_card"/>
         <activity
             android:name=".ViewPagerActivity"
             android:label="@string/ad_native_view_pager"/>
+        <activity
+            android:name=".FeedCardRecyclerVerticalInfeedActivity"
+            android:label="@string/ad_native_infeed_recycler_vertical_feed_card"/>
+        <activity
+            android:name=".FeedCardRecyclerHorizontalInfeedActivity"
+            android:label="@string/ad_native_infeed_recycler_vertical_feed_card"/>
+        <activity
+            android:name=".FeedCardRecyclerInfeedActivity"
+            android:label="@string/ad_native_infeed_standard_feed_card"/>
+        <activity
+            android:name=".FeedCardGridVerticalInfeedActivity"
+            android:label="@string/ad_native_infeed_grid_vertical_feed_card"/>
+        <activity
+            android:name=".FeedCardGridHorizontalInfeedActivity"
+            android:label="@string/ad_native_infeed_grid_vertical_feed_card"/>
+        <activity
+            android:name=".StoryCardRecyclerVerticalInfeedActivity"
+            android:label="@string/ad_native_infeed_recycler_vertical_story_card"/>
+        <activity
+            android:name=".StoryCardRecyclerHorizontalInfeedActivity"
+            android:label="@string/ad_native_infeed_recycler_horizontal_story_card"/>
+        <activity
+            android:name=".StoryCardGridVerticalInfeedActivity"
+            android:label="@string/ad_native_infeed_grid_vertical_story_card"/>
+        <activity
+            android:name=".StoryCardGridHorizontalInfeedActivity"
+            android:label="@string/ad_native_infeed_grid_horizontal_story_card"/>
+        <activity
+            android:name=".StoryCardRecyclerInfeedActivity"
+            android:label="@string/ad_native_infeed_standard_story_card"/>
+        <activity
+            android:name=".VideoCardRecyclerVerticalInfeedActivity"
+            android:label="@string/ad_native_infeed_recycler_vertical_video_card"/>
+        <activity
+            android:name=".VideoCardRecyclerHorizontalInfeedActivity"
+            android:label="@string/ad_native_infeed_recycler_horizontal_video_card"/>
+        <activity
+            android:name=".VideoCardGridVerticalInfeedActivity"
+            android:label="@string/ad_native_infeed_grid_vertical_video_card"/>
+        <activity
+            android:name=".VideoCardGridHorizontalInfeedActivity"
+            android:label="@string/ad_native_infeed_grid_horizontal_video_card"/>
+        <activity
+            android:name=".VideoCardRecyclerInfeedActivity"
+            android:label="@string/ad_native_infeed_standard_video_card"/>
     </application>
 
 </manifest>

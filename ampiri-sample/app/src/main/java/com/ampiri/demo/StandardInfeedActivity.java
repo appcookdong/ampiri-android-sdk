@@ -13,7 +13,7 @@ import com.ampiri.sdk.banner.StreamAdAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class InfeedActivity extends AdCallbackActivity {
+public abstract class StandardInfeedActivity extends AdCallbackActivity {
     @NonNull
     private static final String AD_UNIT_ID = "e5cc8e6d-d674-402a-aeca-eda7856bd7af";
     @Nullable
@@ -22,7 +22,7 @@ public abstract class InfeedActivity extends AdCallbackActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_infeed_ad);
+        setContentView(R.layout.activity_infeed_standard_ad);
 
         final ListView listView = (ListView) findViewById(R.id.list);
         if (listView != null) {

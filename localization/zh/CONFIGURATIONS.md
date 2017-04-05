@@ -6,7 +6,6 @@ Here you can find advanced SDK topics.
 
 * [Ampiri 支持](#ampiri-支持)
 * [用户数据](#用户数据)
-* [广告平台测试设置](#广告平台测试设置)
 * [日志](#日志)
 * [调试模式](#调试模式)
 * [Eclipse 集成](#eclipse-集成)
@@ -29,32 +28,6 @@ Here you can find advanced SDK topics.
 Ampiri.setUserBirthday(data);
 Ampiri.setUserGender(UserData.Gender.FEMALE);
 Ampiri.setUserInterests(Arrays.asList("football", "auto", "cats")); // Just for example. Please set real interests.
-```
-
-## 广告平台测试设置  
-
-### AdMob
-
-```java
-Ampiri.addMediationAdapter(new AdMobMediation.Builder()
-    .addTestDevice("HASHED_ID")
-    .build());
-```
-
-### Facebook
-
-```java
-Ampiri.addMediationAdapter(new FacebookMediation.Builder()
-    .addTestDevice("HASHED_ID")
-    .build());
-```
-
-### AdColony
-
-```java
-Ampiri.addMediationAdapter(new AdColonyMediation.Builder()
-    .setStore("Amazon")
-    .build());
 ```
 
 ## 日志 

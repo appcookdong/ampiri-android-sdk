@@ -48,16 +48,52 @@ public class MainActivity extends Activity implements OnItemClickListener {
                 startActivity(VideoNativeActivity.buildIntent(this));
                 break;
             case 6:
-                startActivity(FeedCardInfeedActivity.buildIntent(this));
+                startActivity(ViewPagerActivity.buildIntent(this));
                 break;
             case 7:
-                startActivity(StoryCardInfeedActivity.buildIntent(this));
+                startActivity(FeedCardStandardInfeedActivity.buildIntent(this));
                 break;
             case 8:
-                startActivity(VideoCardInfeedActivity.buildIntent(this));
+                startActivity(FeedCardRecyclerVerticalInfeedActivity.buildIntent(this));
                 break;
             case 9:
-                startActivity(ViewPagerActivity.buildIntent(this));
+                startActivity(FeedCardRecyclerHorizontalInfeedActivity.buildIntent(this));
+                break;
+            case 10:
+                startActivity(FeedCardGridVerticalInfeedActivity.buildIntent(this));
+                break;
+            case 11:
+                startActivity(FeedCardGridHorizontalInfeedActivity.buildIntent(this));
+                break;
+            case 12:
+                startActivity(StoryCardStandardInfeedActivity.buildIntent(this));
+                break;
+            case 13:
+                startActivity(StoryCardRecyclerVerticalInfeedActivity.buildIntent(this));
+                break;
+            case 14:
+                startActivity(StoryCardRecyclerHorizontalInfeedActivity.buildIntent(this));
+                break;
+            case 15:
+                startActivity(StoryCardGridVerticalInfeedActivity.buildIntent(this));
+                break;
+            case 16:
+                startActivity(StoryCardGridHorizontalInfeedActivity.buildIntent(this));
+                break;
+            case 17:
+                startActivity(VideoCardStandardInfeedActivity.buildIntent(this));
+                break;
+            case 18:
+                startActivity(VideoCardRecyclerVerticalInfeedActivity.buildIntent(this));
+                break;
+            case 19:
+                startActivity(VideoCardRecyclerHorizontalInfeedActivity.buildIntent(this));
+                break;
+            case 20:
+                startActivity(VideoCardGridVerticalInfeedActivity.buildIntent(this));
+                break;
+            case 21:
+                startActivity(VideoCardGridHorizontalInfeedActivity.buildIntent(this));
                 break;
             default:
                 throw new IllegalStateException("Unknown position [" + position + "]");

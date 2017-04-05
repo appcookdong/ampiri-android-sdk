@@ -6,7 +6,6 @@ Here you can find advanced SDK topics.
 
 * [Ampiri Support](#ampiri-support)
 * [User Data](#user-data)
-* [Ad Networks Setting](#ad-networks-settings)
 * [Log](#log)
 * [Debug Mode](#debug-mode)
 * [Eclipse Integration](#eclipse-integration)
@@ -31,39 +30,7 @@ Ampiri.setUserGender(UserData.Gender.FEMALE);
 Ampiri.setUserInterests(Arrays.asList("football", "auto", "cats")); // Just for example. Please set real interests.
 ```
 
-## Ad Networks Settings
 
-### AdMob
-
-```java
-Ampiri.addMediationAdapter(new AdMobMediation.Builder()
-    .addTestDevice("HASHED_ID")
-    .build());
-```
-
-### Facebook
-
-```java
-Ampiri.addMediationAdapter(new FacebookMediation.Builder()
-    .addTestDevice("HASHED_ID")
-    .build());
-```
-
-### AdColony
-
-```java
-Ampiri.addMediationAdapter(new AdColonyMediation.Builder()
-    .setStore("Amazon")
-    .build());
-```
-
-### InLocoMedia
-
-```java
-Ampiri.addMediationAdapter(new InLocoMediaMediation.Builder()
-    .addTestDevice("HASHED_ID")
-    .build());
-```
 
 ## Log
 
